@@ -1,0 +1,6 @@
+draw circle 90 90 90 red
+draw rectangle 270 90 90 180 yellow
+draw ellipse 450 90 90 270 blue
+draw line 630 90 720 450 green
+draw line 720 90 630 450 green
+draw path 810 90 900 90 810 540 900 540 801 90 white
