@@ -38,7 +38,7 @@
             // 
             // tbxInput
             // 
-            this.tbxInput.Location = new System.Drawing.Point(18, 828);
+            this.tbxInput.Location = new System.Drawing.Point(8, 873);
             this.tbxInput.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbxInput.Name = "tbxInput";
             this.tbxInput.Size = new System.Drawing.Size(1468, 26);
@@ -46,7 +46,7 @@
             // 
             // btnProcess
             // 
-            this.btnProcess.Location = new System.Drawing.Point(1520, 828);
+            this.btnProcess.Location = new System.Drawing.Point(1542, 873);
             this.btnProcess.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnProcess.Name = "btnProcess";
             this.btnProcess.Size = new System.Drawing.Size(112, 35);
@@ -58,7 +58,7 @@
             // btnClear
             // 
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClear.Location = new System.Drawing.Point(1520, 872);
+            this.btnClear.Location = new System.Drawing.Point(1542, 926);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 35);
@@ -71,7 +71,7 @@
             // 
             this.lblCheck.AutoSize = true;
             this.lblCheck.ForeColor = System.Drawing.Color.Red;
-            this.lblCheck.Location = new System.Drawing.Point(18, 886);
+            this.lblCheck.Location = new System.Drawing.Point(13, 926);
             this.lblCheck.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCheck.Name = "lblCheck";
             this.lblCheck.Size = new System.Drawing.Size(51, 20);
@@ -87,9 +87,9 @@
             // 
             // canvas
             // 
-            this.canvas.Location = new System.Drawing.Point(-4, 0);
+            this.canvas.Location = new System.Drawing.Point(8, 0);
             this.canvas.Name = "canvas";
-            this.canvas.Size = new System.Drawing.Size(1658, 820);
+            this.canvas.Size = new System.Drawing.Size(1687, 852);
             this.canvas.TabIndex = 6;
             // 
             // frmCanvasTest
@@ -98,16 +98,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClear;
-            this.ClientSize = new System.Drawing.Size(1650, 943);
+            this.ClientSize = new System.Drawing.Size(1712, 1006);
             this.Controls.Add(this.canvas);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblCheck);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnProcess);
             this.Controls.Add(this.tbxInput);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmCanvasTest";
-            this.Text = "Canvas_Tester";
+            this.Text = "Canvas_Tester by Razvan Emil Rapcea";
             this.Load += new System.EventHandler(this.frmCanvasTest_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

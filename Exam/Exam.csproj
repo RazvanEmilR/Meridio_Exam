@@ -51,7 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConstants\Constants.cs" />
-    <Compile Include="DrawHelpers\GraphicHelper.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

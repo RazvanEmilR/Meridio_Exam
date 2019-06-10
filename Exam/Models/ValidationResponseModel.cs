@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Exam.Models
 {
+    /// <summary>
+    /// A return validation object
+    /// </summary>
     public class ValidationResponseModel
     {
         public bool isValid { get; set; }
